@@ -61,3 +61,13 @@ purchasedBook = true;
 job = 'teacher';
 inTrain = false;
 
+// Opdrachten over loops
+x=1;
+while (x<=20) {
+    if (x % 4 ===0) {
+        console.log(x,'deelbaar door 4');
+    }else{
+        console.log(x, 'is niet deelbaar door 4');
+    }
+    x=x+1;
+}

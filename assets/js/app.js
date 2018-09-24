@@ -62,6 +62,7 @@ job = 'teacher';
 inTrain = false;
 
 // Opdrachten over loops
+// Reeks met getallen deelbaar of niet deelbaar
 x=1;
 while (x<=20) {
     if (x % 4 ===0) {
@@ -70,10 +71,11 @@ while (x<=20) {
         console.log(x, 'is niet deelbaar door 4');
     }
     x=x+1;
-}
+
+    // Fibonacci reeks
 let firstNumber = 0;
 let secondNumber = 1;
-let firstAndSecond = firstNumber + secondNumber
+let firstAndSecond = firstNumber + secondNumber;
 
 while(firstAndSecond <1000){
     console.log(firstAndSecond);
@@ -81,3 +83,16 @@ while(firstAndSecond <1000){
     firstNumber = firstAndSecond;
     firstAndSecond = firstNumber + secondNumber;
 }
+
+// array
+let Getallen = [2, 4, 8, 9, 12, 13];
+let totalOffAll = 0;
+
+for(z=0;z<Getallen.length;z++){
+    console.log(Getallen[z]);
+    totalOffAll = totalOffAll + Getallen[z];
+}
+console.log(totalOffAll);
+}
+
+

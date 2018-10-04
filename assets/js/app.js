@@ -95,7 +95,7 @@ for (z = 0; z < Getallen.length; z++) {
 console.log(totalOffAll);
 }*/
 
-// fibonaccisequence in function
+/*// fibonaccisequence in function
 function fibonacci(startNum, maxNum) {
     let secondNumber = 0;
     let firstAndSecond = startNum + secondNumber;
@@ -121,7 +121,7 @@ fibonacci(1, 900);
 }
 countdown(10)*/
 // Functie expressie en declaratie
-function declar(){
+/*function declar(){
    a =12;
    b =13;
    console.log(`${a},${b}`);
@@ -139,7 +139,7 @@ function expression(){
     var z = 13;
 }
 expression()
-// resultaat geef NaN
+// resultaat geef NaN*/
 
 
 

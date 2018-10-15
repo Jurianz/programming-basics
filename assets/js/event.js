@@ -1,28 +1,28 @@
-// //Opdracht 1 clicking game
-// // self executing function here
-// (function() {
-// 	let count = 0;
-//    // your page initialization code here
-//    // the DOM will be available here
-// 	var button = document.getElementById("add");
-// 	button.addEventListener("click",function(e){
-//     count++;
-// 		document.getElementById("count").innerHTML = count;
-//     if(count % 10 == 0){
-// 			var rectangle =	document.getElementById("rectangle");
-// 			var currentWidht = rectangle.offsetWidth;
-//       currentWidht -=10;
-//  			var currentHeight = rectangle.offsetHeight;
-//  			currentHeight -= 10;	
-//       rectangle.style.width = currentWidht +"px";
-//       rectangle.style.height = currentHeight+ "px";
+//Opdracht 1 clicking game
+// self executing function here
+(function() {
+	let count = 0;
+   // your page initialization code here
+   // the DOM will be available here
+	var button = document.getElementById("add");
+	button.addEventListener("click",function(e){
+    count++;
+		document.getElementById("count").innerHTML = count;
+    if(count % 10 == 0){
+			var rectangle =	document.getElementById("rectangle");
+			var currentWidht = rectangle.offsetWidth;
+      currentWidht -=10;
+ 			var currentHeight = rectangle.offsetHeight;
+ 			currentHeight -= 10;	
+      rectangle.style.width = currentWidht +"px";
+      rectangle.style.height = currentHeight+ "px";
 
-//     }
-// },false);
+    }
+},false);
 
-// var classname = document.getElementsByClassName("remove");
+var classname = document.getElementsByClassName("remove");
 
-// })();
+})();
 
 
 // Opdracht 2 boodschappenlijstje waarin dingen plus waarde kunnen worden toegevoegd en verwijdert
